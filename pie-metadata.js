@@ -3,7 +3,7 @@
 // 画的图为metadataDistribution
 option = {
   title: {
-    text: 'Nr. of available host metadata: sex, age and BMI',
+    text: 'Sample Metadata Completeness: Sex, Age, BMI',
     left: "center"
   },
   tooltip: {
@@ -58,23 +58,29 @@ option = {
       },
       data: [
         { 
-          value: 1158, name: 'none', selected: true,
+          value: 2507, name: 'none', selected: true,
           itemStyle:{
             color: "#C0C0C0"
           }
         },
         { 
-          value: 198, name: 'only one',
+          value: 377, name: 'only one',
           itemStyle:{
             color: "#00FF66"
           }
         },
         { 
-          value: 164, name: 'more than one',
+          value: 819, name: 'two',
           itemStyle:{
             color: "#00802B"
           }
         },
+        {
+            value: 1187, name: 'all',
+            itemStyle:{
+                color: "#004014"
+            }
+        }
       ]
     },
   ]

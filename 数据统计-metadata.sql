@@ -1,3 +1,4 @@
+-- 统计basic metadata的完整性
 -- 1. 一列不为NULL的数据记录数量：
 SELECT COUNT(*) AS count
 FROM sample_to_run_info

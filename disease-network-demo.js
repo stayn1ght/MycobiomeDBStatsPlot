@@ -1,4 +1,4 @@
-# 使用 echarts 作图
+// 使用 echarts 作图
 option = {
   title: {
     text: 'Basic Graph'

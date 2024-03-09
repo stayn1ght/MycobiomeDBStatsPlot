@@ -15,7 +15,7 @@ limit 10;
 
 
 SELECT 
-    t1.disease,
+    t1.disease, t4.term,
     COUNT(DISTINCT t1.run_id) AS num_runs, 
     COUNT(DISTINCT CASE WHEN t2.QCStatus = 0 THEN t1.run_id END)
     + COUNT(DISTINCT CASE WHEN t2.QCStatus = 1 THEN t1.run_id END) AS processed_runs ,
@@ -28,7 +28,7 @@ FROM
     JOIN curated_taxon_abundance AS t3 ON t2.uid = t3.sample_uid
     JOIN mesh_data AS t4 ON t1.disease = t4.uid
 GROUP BY 
-    t1.disease;
+    t1.disease, t4.term;
 
 
 -- 然后统计 disease - Nr. run - Nr. processed run ...
