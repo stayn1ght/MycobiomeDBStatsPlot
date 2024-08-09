@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/maps/world.js"></script>
+
+</head>
+<body >
+    <div id="6ab7e2714a2f4731a292d81172aaa6dc" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_6ab7e2714a2f4731a292d81172aaa6dc = echarts.init(
+            document.getElementById('6ab7e2714a2f4731a292d81172aaa6dc'), 'white', {renderer: 'svg'});
+        var option_6ab7e2714a2f4731a292d81172aaa6dc = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "label": {
+                "show": false,
+                "margin": 8
+            },
+            "map": "world",
+            "data": [
+                {
+                    "name": "China",
+                    "value": 1303
+                },
+                {
+                    "name": "United States",
+                    "value": 799
+                },
+                {
+                    "name": "Canada",
+                    "value": 357
+                },
+                {
+                    "name": "Madagascar",
+                    "value": 291
+                },
+                {
+                    "name": "Italy",
+                    "value": 205
+                },
+                {
+                    "name": "Germany",
+                    "value": 183
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 165
+                },
+                {
+                    "name": "Australia",
+                    "value": 162
+                },
+                {
+                    "name": "Belgium",
+                    "value": 161
+                },
+                {
+                    "name": "Central African Republic",
+                    "value": 145
+                },
+                {
+                    "name": "Ireland",
+                    "value": 144
+                },
+                {
+                    "name": "France",
+                    "value": 120
+                },
+                {
+                    "name": "India",
+                    "value": 119
+                },
+                {
+                    "name": "Denmark",
+                    "value": 99
+                },
+                {
+                    "name": "Malaysia",
+                    "value": 63
+                },
+                {
+                    "name": "Japan",
+                    "value": 47
+                },
+                {
+                    "name": "Malawi",
+                    "value": 46
+                },
+                {
+                    "name": "Thailand",
+                    "value": 34
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 9
+                },
+                {
+                    "name": "Spain",
+                    "value": 7
+                },
+                {
+                    "name": "Mexico",
+                    "value": 4
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "zlevel": 0,
+            "z": 2,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": true,
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                ""
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 0,
+        "max": 1400,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "hoverLink": true,
+        "orient": "vertical",
+        "padding": 5,
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    }
+};
+        chart_6ab7e2714a2f4731a292d81172aaa6dc.setOption(option_6ab7e2714a2f4731a292d81172aaa6dc);
+    </script>
+</body>
+</html>
